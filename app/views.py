@@ -61,7 +61,7 @@ def pop():
 @current_app.route('/rpn/stack/peek', methods=['GET'])
 def peek():
     """
-    see the top of the stack
+    get the top of the stack
     ---
     responses:
       200:
